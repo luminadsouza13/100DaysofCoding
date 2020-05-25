@@ -1,0 +1,7 @@
+#Day 4 - Creating tables and installing SQL lite
+
+CREATE TABLE "items" (
+    "item" TEXT NOT NULL,
+    "status" TEXT NOT NULL,
+    PRIMARY KEY("item")
+);
